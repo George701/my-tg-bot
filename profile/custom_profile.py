@@ -1,5 +1,6 @@
 class UserProfile:
-    def __init__(self, name=None, age=None):
+    def __init__(self, id, name=None, age=None):
+        self.id = id
         self.name = name
         self.age = age
 
